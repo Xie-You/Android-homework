@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">备忘录</string>
+    <string name="note">备忘录</string>
+    <string name="addnotes">添加备忘录</string>
+    <string name="Editnote">编辑备忘录</string>
+    <string name="EditDate">编辑时间</string>
+    <string name="Editcontent">内容编辑：</string>
+    <string name="hint">此处编辑备忘录内容</string>
+    <string name="cancel">取消</string>
+    <string name="save">保存</string>
+
+</resources>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context="com.student.down_counter.SetAlarm">
+
+
+
+
+    <Button
+        android:id="@+id/huoguo"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:text="1.火锅底料" />
+
+    <Button
+        android:id="@+id/shafa"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:text="2.杀伐" />
+
+        <!--停止计时-->
+
+    <Button
+        android:id="@+id/baiyang"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:text="3.白羊" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="127dp"
+        android:gravity="center"
+        android:textSize="85dp" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="63dp"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="52dp"
+            android:text="请选择铃声序号："
+            android:textSize="30dp" />
+
+        <EditText
+            android:id="@+id/tab"
+            android:layout_width="90dp"
+            android:layout_height="match_parent"
+            android:ems="15"
+            android:gravity="center"
+
+            android:inputType="number"
+            android:textSize="80px" />
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/ok"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:text="确定" />
+
+
+
+
+
+</LinearLayout>
